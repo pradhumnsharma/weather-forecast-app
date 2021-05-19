@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+
+<body>
+  {{>header}}
+  <div class="container">
+    <p class="index-page-p1">{{pageDescription}}</p>
+    <form>
+      <input type="text" placeholder="Enter location">
+      <button>Submit</button>
+    </form>
+    <div id="main"></div>
+  </div>
+  {{>footer}}
+  <script src="/app.js"></script>
+</body>
+
+</html>

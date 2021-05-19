@@ -1,0 +1,55 @@
+@import './fonts.css';
+
+body, *{
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  padding: 20px 10px;
+  text-align: center;
+}
+
+p{
+  color: blue;
+  font-family: 'RobotoRegular';
+}
+
+p.index-page-p1{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+form{
+  margin-bottom: 20px;
+}
+
+form input{
+  width: 250px;
+    height: 20px;
+    border-radius: 4px;
+    padding-left: 10px;
+    border: 1px solid rgba(212,10,230,0.5);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+form button{
+  padding: 8px 25px;
+  background-color: rgba(0,255,150,0.8);
+  border: none;
+  cursor: pointer;
+}
+
+#main{
+  margin: 0 auto;
+  width: 375px;
+  font-family: 'RobotoRegular';
+}
+
+form input:focus-visible{
+    outline: none;
+    border: 1px solid rgba(212,10,230,0.5);
+    box-shadow: -3px 2px 6px rgba(212,10,230,0.5);
+}

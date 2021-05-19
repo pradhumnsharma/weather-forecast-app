@@ -1,0 +1,34 @@
+@import './fonts.css';
+
+.header{
+  height: 50px;
+  line-height: 50px;
+  background-color: #54edf2;
+  display: block;
+  padding: 0px 10px;
+}
+
+.header h1{
+  font-family: 'RobotoBold';
+}
+
+.header a, .header a:visited{
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+  padding: 16px;
+}
+
+.header ul{
+  font-family: 'RobotoRegular';
+  float: right;
+}
+
+.header ul li{
+  display: inline;
+}
+
+.header a:hover{
+  background-color: #ffebcd;
+  cursor: pointer;
+}
