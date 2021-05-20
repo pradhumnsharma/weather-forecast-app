@@ -6,7 +6,7 @@ form.addEventListener('submit', (e) => {
   if(searchElement.value) {
     document.getElementById('main').style.display = 'none';
     document.getElementsByClassName('loader')[0].classList.remove('display-none');
-    fetch('http://localhost:3000/weather?address=' + searchElement.value)
+    fetch('/weather?address=' + searchElement.value)
       .then(response => response.json()
         .then(data => {
           document.getElementById('main').innerHTML = data.data;
